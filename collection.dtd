@@ -1,0 +1,17 @@
+<!ELEMENT collection (dvd|cd)* >
+
+<!ELEMENT cd (title, artiste , year?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artiste (pseudo,fName, lName)>
+<!ELEMENT pseudo (#PCDATA)>
+<!ELEMENT fName (#PCDATA)>
+<!ELEMENT lName (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+
+<!ATTLIST cd id ID #REQUIRED>
+<!ATTLIST cd style (unknown | rock | rap | blues | rnb | funk) "unknown">
+
+<!ELEMENT dvd (title, year)>
+
+<!ATTLIST dvd ref ID #REQUIRED>
+<!ATTLIST dvd type (movie | report | cartoon | animated-film) "movie">

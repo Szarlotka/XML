@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "collection.dtd">
+<collection>
+    <cd id="c01">
+        <title>Soundtrack from Twin Peaks</title>
+        <artiste>
+            <pseudo>AB</pseudo>
+            <fName>Angelo</fName>
+            <lName>Badalamenti</lName>
+        </artiste>
+        <year>1990</year>
+    </cd>
+
+    <dvd ref="d01" type="movie">
+        <title>Rogue One</title>
+        <year>2016</year>
+    </dvd>
+</collection>
